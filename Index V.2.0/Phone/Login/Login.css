@@ -1,0 +1,68 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  #title{
+    left: 10%;
+    position: absolute;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    top: 30px;
+    font-family: sans-serif;
+    top:200px;
+    
+  }
+  
+  input[type=text], input[type=email]{
+    position: absolute;
+    left: 10%;
+    
+    width: 300px;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    top: 300px;
+  }
+  input[type=text], input[type=password]{
+    position: absolute;
+    top: 400px;
+    left: 10%;
+    width: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+
+  
+  }
+  
+  input[type=button], input[type=button]{
+    position: absolute;
+    top: 450px;
+    left: 10%;
+    width: 300px;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: rgb(160, 203, 203);
+    
+  
+  }
+  #submit:hover{
+    border-color: rgba(19, 200, 115, 0.735);
+  }
+  
+  body{
+    background-image: url(/assets/philip-oroni-KtEloTGQ8wM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  
+  }
+  
