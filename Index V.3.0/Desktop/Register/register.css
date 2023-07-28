@@ -1,0 +1,84 @@
+*{
+    padding: px 0;
+    margin: 0px;
+    
+}
+
+nav{
+    position: relative;
+    background-color: rgba(32, 122, 145, 0);
+    padding: 20px;
+   
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline;
+    padding: 20px;
+    
+    
+}
+#logout{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    height: 40px
+    
+}
+#back{
+   
+    color: rgb(4, 0, 0);
+    font-size: 17px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    height: 40px;
+}
+
+#title{
+    position: absolute;
+    top: 20px;
+    font-family: sans-serif;
+    display: inline;
+    color: white;
+    left: 40px;
+}
+
+
+
+
+
+body{
+    background-image: url(/assets/philip-oroni-KtEloTGQ8wM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  
+}
+  
+#email{
+position: relative;
+top: 200px;
+left: 40px;
+width: 200px;
+height: 30px;
+    border-radius: 7px;
+}
+#password{
+    position:absolute;
+    top: 300px;
+    left: 40px;
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+}
+#submit{
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    width: 220px;
+    height: 30px;
+    border-radius: 7px;
+}
